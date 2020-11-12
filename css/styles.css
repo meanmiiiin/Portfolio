@@ -43,6 +43,9 @@
    flex-grow:0.5;
 
  }
+ .margin-top {
+   margin-top: 10px;
+ }
 
  .navbar li{
    display:inline-flex;
@@ -120,13 +123,43 @@ margin-left:50px;
 }
 
 .about{
-  background-color:red;
+  background-color: #2d2d2d;
   height:500px;
-  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-me{
   background-color:green;
   height:500px;
   width:100%;
+}
+
+.about-container{
+
+/* background-color: red; */
+text-align: center;
+
+
+
+
+
+
+
+
+
+}
+
+h2{
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.about p{
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  margin-top:0 auto;
+
 }
