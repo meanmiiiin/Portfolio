@@ -68,6 +68,53 @@ body{
 }
 
 
+@media (min-width: 50px) {
+  .image-header{
+   background-color:violet;
+  }
+
+  
+}
+
+
+@media (min-width: 410px) {
+  .image-header{
+   background-color:red;
+  }
+
+  
+}
+
+@media (min-width: 576px) {
+  .image-header{
+    background-color:blue;
+   }
+ 
+ 
+ 
+}
+
+@media (min-width: 768px) {
+  .image-header{
+    background-color:yellow;
+   }
+  
+  }
+
+
+@media (min-width: 992px) {
+  .image-header{
+    background-color:pink;
+   }
+  
+}
+
+@media (min-width: 1200px) {
+  .image-header{
+    background-color:cyan;
+   }
+}
+
 
 .title-header{
  display: flex;
