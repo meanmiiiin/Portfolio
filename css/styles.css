@@ -2,30 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,500&display=swap');
 
 *{
-
-    list-style:none;
     margin:0px;
     padding:0px;
-    text-decoration:none;
 }
 
 
-
  .header-container{
-   /* background-color: orange; */
-   display: flex;
-  justify-content:flex-end;
+    display: flex;
+    justify-content:flex-end;
+    background-color: red;
+    position:fixed;
+    width:100%;
 
  }
 
 
  .navbar{
-   /* background-color: green; */
    display:flex;
-   margin-top: 25px;
+   align-items: center;
+   height:50px;
+
  }
-
-
 
 
 
@@ -33,13 +30,14 @@
    margin-top: 10px;
  }
 
+
+
  .navbar li{
    display:inline-flex;
+
    margin-right:50px;
    font-size: 16px;
    font-family: 'Open Sans', sans-serif;
-   /* background-color: red; */
-
  }
 
 
@@ -51,16 +49,15 @@ body{
 
 .container-2{
   display: flex;
- justify-content:space-around;
-  /* background-color: red; */
+  justify-content:space-around;
   height:750px;
   width:100%;
 }
 
 .image-header{
   display: flex;
- justify-content: flex-end;
-
+  justify-content: flex-end;
+  align-items: center;
 }
 
 
